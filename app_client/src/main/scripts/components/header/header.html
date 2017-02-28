@@ -1,0 +1,317 @@
+<!--Header-->
+<header>
+    <!--Header-Top-->
+    <div class="header-top">
+
+        <div class="container-fluid">
+
+            <div class="row">
+
+                <div class="col-sm-6">
+                    <div class="header-content">
+                        <ul class="nav nav-pills">
+                            <li><a href="#">about us</a></li>
+                            <li><a href="#">how to buy</a></li>
+                            <li><a href="#">support</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-sm-6">
+                    <div class="header-content">
+                        <ul class="nav nav-pills navbar-right">
+                            <li><a href="#">currency :</a></li>
+                            <li class="btn-group">
+                                <button type="button" class="btn btn-default dropdown-toggle usa"
+                                        data-toggle="dropdown">
+                                    USD
+                                    <span class="caret"></span>
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li ng-repeat="currency in currencies"><a href="">{{currency}}</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--./Header-Top-->
+
+    <!--Header-Middle-->
+    <div class="header-middle">
+
+        <div class="container-fluid">
+
+            <div class="row">
+                <!--Logo-->
+                <div class="custom-logo">
+                    <div class="col-lg-2">
+                        <div class="logo pull-left">
+                            <a href="index.html"><img src="./assets/img/home/logo.svg" alt=""/></a>
+                        </div>
+                    </div>
+                </div>
+                <!--./Logo-->
+
+                <!--Search box-->
+
+                <div class="custom-search">
+                    <div class="col-xs-12 col-lg-4">
+                        <div class="search-box">
+
+                            <div class="input-group">
+                                <div class="input-group-btn search-panel">
+                                    <button type="button" class="btn btn-default dropdown-toggle"
+                                            data-toggle="dropdown"
+                                            style="height: 45px">
+                                        <span id="search_concept">Category</span> <span class="caret"></span>
+                                    </button>
+                                    <ul class="dropdown-menu" role="menu">
+                                        <li><a href="#">Category</a></li>
+                                        <li ng-repeat="category in categories"><a href="">{{category}}</a></li>
+                                    </ul>
+                                </div>
+
+                                <input type="hidden" name="search_param" value="all" id="search_param">
+                                <input type="text" class="form-control" name="x" style="height: 45px">
+                                <span class="input-group-btn">
+                            <button class="btn btn-warning" type="button" style="height: 45px">
+                                <span class="glyphicon glyphicon-search"></span></button>
+                         </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--./Search box-->
+
+
+                <!--Request button-->
+                <div class="custom-request">
+                    <div class="col-lg-2">
+                        <button type="button" class="request-button">request a quote</button>
+                    </div>
+                </div>
+                <!--./Request button-->
+
+                <div ng-controller="loginCtrl">
+                    <!--Login-->
+                    <div class="custom-login" ng-hide="isLoggedIn">
+                        <div class="col-lg-2">
+                            <div class="login-header pull-right">
+
+                                <div class="dropdown">
+
+                                    <img src="./assets/img/icon/login-icon.svg" style="margin-right: 8px">
+                                    <a class="dropdown-toggle header-title" data-toggle="dropdown">business login
+                                        <b class="caret"></b></a>
+                                    <ul class="dropdown-menu">
+                                        <li class="nav-header">BUSINESS LOGIN</li>
+                                        <li class="divider"></li>
+                                        <li>
+                                            <form class="login-box" ng-submit="onSubmit()">
+                                                <div class="form-group">
+                                                    <div class="group">
+                                                        <input type="email" class="form-control" id="email"
+                                                               ng-model="credentials.email" required>
+                                                        <span class="highlight"></span>
+                                                        <span class="bar"></span>
+                                                        <label>Email</label>
+                                                    </div>
+                                                </div>
+
+                                                <div class="form-group">
+                                                    <div class="group">
+                                                        <input type="password" class="form-control" id="pwd"
+                                                               ng-model="credentials.password" required>
+                                                        <span class="highlight"></span>
+                                                        <span class="bar"></span>
+                                                        <label>Password</label>
+                                                    </div>
+                                                </div>
+                                                <button type="submit" class="btn btn-default"
+                                                        style="width: 310px;height: 55px;border-radius: 5px;  background-color: #ea9215; margin: 15px 25px;">
+                                                    <p class="submit-login">Login</p>
+                                                </button>
+                                            </form>
+                                        </li>
+                                        <li class="forgot-pwd"><a href="#">
+                                            Forgot Password?</a>
+                                        </li>
+                                        <li class="divider"></li>
+                                        <li class="request-business"><a href="#" style="color: #0082d5;">Request
+                                            Business
+                                            Access</a></li>
+                                    </ul>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--./Login -->
+
+                    <!--Login Finish -->
+                    <div class="custom-login-finish" ng-show="isLoggedIn">
+                        <div class="col-lg-2">
+                            <div class="login-header pull-right">
+                                <div class="dropdown">
+                                    <img src="./assets/img/icon/user_icon.png" style=" width: 40px; ">
+                                    <a href="#" class="dropdown-toggle header-title" data-toggle="dropdown">{{currentUser.name}}
+                                        <b class="caret"></b></a>
+                                    <ul class="dropdown-menu-login  dropdown-menu">
+                                        <div class="login-box">
+                                            <div class="">
+                                                <ul class="text-style">
+                                                    <li class="iconMyAccount"><a href="">My Account</a></li>
+                                                    <li class="iconMyOrder"><a href="">My Order</a> <span
+                                                            class="badge badgeOrder">1</span></li>
+                                                    <li class="iconInbox"><a href="">Inbox</a> <span
+                                                            class="badge badgeInbox">1</span>
+                                                    </li>
+                                                </ul>
+                                            </div>
+
+                                            <div class="divider"></div>
+                                            <div class="">
+                                                <ul class="text-style">
+                                                    <li class="iconLogOut"><a ng-click="logOut()">Logout</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </ul>
+                                    <button ng-click="logOut()">Logout</button>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!--./Login Finish-->
+                </div>
+                <!--Cart-->
+                <div class="custom-cart">
+                    <div class="col-lg-2">
+                        <div class="cart pull-right">
+
+                            <div class="dropdown" id="my-cart">
+                                <a href="" class="dropdown-toggle header-title" data-toggle="dropdown">
+                                    <img src="./assets/img/home/cart.svg" alt="">
+                                </a>
+                                <span class="badge">1</span>
+                                <div class="cart-info">
+                                    <h3>Cart <b>(1 item)</b></h3>
+                                    <p>$200</p>
+                                </div>
+                                <ul class="dropdown-menu">
+                                    <li class="row">
+                                        <div class="cart-header-detail">
+                                            <div class="col-lg-2">
+                                                <img src="./assets/img/home/greenchair.jpg" alt=""
+                                                     style="width: 80px; height: 80px">
+                                            </div>
+                                            <div class="col-lg-5">
+                                                <h3>Garden Chair</h3>
+                                                <p>Althusser Competing</p>
+                                                <div class="remove-icon">
+                                                    <a href="#"><img src="./assets/img/home/remove.svg" alt="">&nbsp;Remove</a>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-lg-3">
+                                                <div class="input-group spinner">
+                                                    <input type="text" class="form-control" value="1">
+                                                    <div class="input-group-btn-vertical">
+                                                        <button class="btn btn-default" type="button"><i
+                                                                class="fa fa-caret-up"></i></button>
+                                                        <button class="btn btn-default" type="button"><i
+                                                                class="fa fa-caret-down"></i></button>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <!--Unit Price-->
+                                            <div class="col-lg-2">
+                                                <div class="unit-price">
+                                                    <p>$200</p>
+                                                </div>
+                                            </div>
+                                            <!--./Unit Price-->
+
+                                        </div>
+                                    </li>
+                                    <li class="divider"></li>
+
+                                    <li class="total-content">
+                                        <div class="row">
+                                            <div class="col-lg-9 text-right ">
+                                                <div class="total">
+                                                    <p>Total</p>
+                                                </div>
+
+                                            </div>
+
+                                            <div class="col-lg-3 text-center ">
+                                                <div class="total-price">
+                                                    <p>$200</p>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <li class="cart-button">
+                                        <div class="row">
+                                            <div class="countinue-shopping col-lg-6 text-center">
+                                                <button class="btn btn-default">CONTINUE SHOPPING</button>
+                                            </div>
+
+                                            <div class="check-out col-lg-6 text-center">
+                                                <button class="btn btn-default" ng-click="checkOut()">CHECK OUT</button>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+                <!--./Cart-->
+            </div>
+        </div>
+    </div>
+
+    <!--./Header-Middle-->
+
+    <!--Header-Bottom-->
+    <div class="header-bottom">
+
+        <nav class="navbar navbar-inverse">
+
+            <div class="container-fluid">
+
+                <div class="myCollection">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+
+                        <a class="navbar-brand" ui-sref="collections">collection</a>
+                    </div>
+
+                    <div class="collapse navbar-collapse" id="myNavbar">
+                        <ul class="nav navbar-nav">
+                            <li ng-repeat="category in categories"><a href="">{{category}}</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!--./Header-Bottom-->
+</header>
+<!--./Header-->

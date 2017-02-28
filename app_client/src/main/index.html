@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <!--CSS Load Bootstrap-->
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/bmc.css">
+    <link rel="stylesheet" href="assets/css/spinner.css">
+
+    <!--Font-->
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+
+
+</head>
+<!--Apply Angular App-->
+<body ng-app="bmcApp">
+
+
+<!-- MAIN CONTENT -->
+
+<!-- THIS IS WHERE WE WILL INJECT OUR CONTENT ============================== -->
+<div ui-view="header"></div>
+<div ui-view="content"></div>
+<div ui-view="footer"></div>
+
+<!--Custom JS-->
+<script src="assets/js/jquery-3.1.1.min.js"></script>
+<script src="assets/js/bootstrap.js"></script>
+
+<!-- bower:js -->
+<script src="assets/bower_components/angular/angular.js"></script>
+<script src="assets/bower_components/angular-route/angular-route.js"></script>
+<script src="assets/bower_components/angular-loader/angular-loader.js"></script>
+<script src="assets/bower_components/angular-mocks/angular-mocks.js"></script>
+<script src="assets/bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+<script src="assets/bower_components/ngstorage/ngStorage.js"></script>
+<!-- endbower -->
+
+<!-- include: "type": "js", "files": "scripts/**/*.js" -->
+<script src="scripts/app.js"></script>
+<script src="scripts/components/footer/footer.controller.js"></script>
+<script src="scripts/components/header/header.controller.js"></script>
+<script src="scripts/product/auth/auth.service.js"></script>
+<script src="scripts/product/auth/login/login.controller.js"></script>
+<script src="scripts/product/auth/login/login.state.js"></script>
+<script src="scripts/product/collection-details/collection-details.state.js"></script>
+<script src="scripts/product/collections/collections.state.js"></script>
+<script src="scripts/product/homepage/hompage.controller.js"></script>
+<script src="scripts/product/homepage/hompage.state.js"></script>
+<script src="scripts/product/my-carts/my-cart-2.controller.js"></script>
+<script src="scripts/product/my-carts/my-cart-2.state.js"></script>
+<script src="scripts/product/my-carts/my-cart-4.state.js"></script>
+<script src="scripts/product/product-details/product-details.state.js"></script>
+<!-- /include -->
+
+</body>
+</html>

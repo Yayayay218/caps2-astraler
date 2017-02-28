@@ -1,0 +1,60 @@
+<footer>
+    <div class="footer" id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2  col-md-2 col-sm-4 col-xs-6">
+                    <h3> quick links </h3>
+                    <ul>
+                        <li ng-repeat="link in quickLinks"><a href="#"> {{link}}</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2  col-md-2 col-sm-4 col-xs-6">
+                    <h3> products </h3>
+                    <ul>
+                        <li ng-repeat="trend in trends"><a href="#"> {{trend}}</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4  col-md-2 col-sm-4 col-xs-12">
+                    <h3> popular categories </h3>
+                    <ul>
+                        <li ng-repeat="item in popularCate"><a href="#"> {{item}} </a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-4  col-md-3 col-sm-6 col-xs-12 ">
+                    <h3> subscribe to newletters </h3>
+                    <ul>
+                        <li>
+                            <div class="flexsearch">
+                                <div class="flexsearch--wrapper">
+                                    <form class="flexsearch--form" action="#" method="post">
+                                        <div class="flexsearch--input-wrapper">
+                                            <input class="flexsearch--input" type="search" placeholder="E-mail">
+                                        </div>
+                                        <input class="flexsearch--submit" type="submit" value="&#10140;"/>
+                                    </form>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="social">
+                        <li><a href="#"> <i class=" fa fa-facebook"> </i> </a></li>
+                        <li><a href="#"> <i class="fa fa-twitter"> </i> </a></li>
+                        <li><a href="#"> <i class="fa fa-linkedin"> </i> </a></li>
+                        <li><a href="#"> <i class="fa fa-pinterest"> </i> </a></li>
+                    </ul>
+                </div>
+            </div>
+            <!--/.row-->
+        </div>
+        <!--/.container-->
+    </div>
+    <!--/.footer-->
+
+    <div class="footer-bottom">
+        <div class="container">
+            <p class="pull-left"> © B.M.C Furniture. All rights reserved. </p>
+        </div>
+    </div>
+    <!--/.footer-bottom-->
+</footer>

@@ -1,0 +1,255 @@
+<div class="account">
+    <div class="container">
+        <div class="row Change-Passwo">
+            <p class="linkTop">Home / My Cart</p>
+        </div>
+        <div class="col-lg-8">
+            <div class="custom-my-cart">
+
+                <h3>My Cart <span>(2 Items)</span></h3>
+                <div class="form-horizontal">
+                    <div class="form-group">
+                        <div class="row row-item " ng-model="cart">
+                            <div class="col-lg-2 col-xs-3 ">
+                                <img class="imgItem" ng-src="{{cart.img}}">
+
+                            </div>
+                            <div class="col-lg-5 col-xs-4">
+                                <div class="nameItem">
+                                    <h3>{{cart.name}}</h3>
+                                    <p class="des">{{cart.description}}</p>
+                                </div>
+                                <div class="remove-icon">
+                                    <a href="#"><img src="assets/img/home/remove.svg">&nbspRemove</a>
+                                </div>
+
+                            </div>
+                            <div class="col-lg-1 col-xs-2">
+                                <p class="titleRow-left">Price</p>
+                                <p class="price">{{cart.price}}</p>
+                            </div>
+                            <div class="col-lg-2 col-xs-1">
+                                <p class="titleRow-right">Qty</p>
+                                <div class="input-group spinner pull-right">
+                                    <input type="text" class="form-control" value="{{cart.quantity}}">
+                                    <div class="input-group-btn-vertical">
+                                        <button class="btn btn-default" type="button"><i
+                                                class="fa fa-caret-up"></i></button>
+                                        <button class="btn btn-default" type="button"><i
+                                                class="fa fa-caret-down"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-2 col-xs-2">
+                                <p class="titleRow-right">Amount</p>
+                                <p class="qty">{{cart.amount}}</p>
+                            </div>
+                        </div>
+                        <hr/>
+
+                        <div class="row row-item ">
+                            <div class="col-lg-2 col-xs-3 ">
+                                <img class="imgItem" src="assets/img/home/greenchair.jpg">
+
+                            </div>
+                            <div class="col-lg-5 col-xs-4">
+                                <div class="nameItem">
+                                    <h3>Garden Chairs</h3>
+                                    <p class="des">Althusser Competing Interpellations And The Third Text</p>
+                                </div>
+                                <div class="remove-icon">
+                                    <a href="#"><img src="assets/img/home/remove.svg">&nbspRemove</a>
+                                </div>
+
+                            </div>
+                            <div class="col-lg-1 col-xs-2">
+                                <p class="titleRow-left">Price</p>
+                                <p class="price">$200</p>
+                            </div>
+                            <div class="col-lg-2 col-xs-1">
+                                <p class="titleRow-right">Qty</p>
+                                <div class="input-group spinner pull-right">
+                                    <input type="text" class="form-control" value="1">
+                                    <div class="input-group-btn-vertical">
+                                        <button class="btn btn-default" type="button"><i
+                                                class="fa fa-caret-up"></i></button>
+                                        <button class="btn btn-default" type="button"><i
+                                                class="fa fa-caret-down"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-2 col-xs-2">
+                                <p class="titleRow-right">Amount</p>
+                                <p class="qty">$200</p>
+                            </div>
+                        </div>
+                        <hr/>
+                    </div>
+
+                </div>
+
+                <div class="form-horizontal customerInfor">
+                    <h3>Customer Information</h3>
+                    <div class="radio-tab">
+                        <ul>
+                            <li>
+                                <input type="radio" id="f-option" ng-checked="true" name="selector" ng-model="content" value="true">
+                                <label for="f-option">Already have an account</label>
+                                <div class="check"></div>
+                            </li>
+
+                            <li>
+                                <input type="radio" id="s-option" name="selector" ng-model="content" value="false">
+                                <label for="s-option">New Customer</label>
+
+                                <div class="check">
+                                    <div class="inside"></div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div ng-hide="content=='false'">
+
+                        <div class="form-group">
+                            <div class="col-lg-6">
+                                <input type="text" class="form-control input" required>
+                                <label class="account">Email</label>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="col-lg-6">
+                                <input type="password" class="form-control input" required>
+                                <label class="account">Password</label>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-lg-6">
+                                <input type="button" class="form-control button" value="LOGIN">
+                                <div style="margin: 15px 0;"></div>
+                                <a href="#" class="forgotPassword">Forgot Password? </a>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div ng-show="content=='false'">
+                        <div class="form-group">
+                            <div class="col-lg-6">
+                                <input type="text" class="form-control input" required>
+                                <label class="account">First name</label>
+                            </div>
+                            <div class="col-lg-6">
+                                <input type="text" class="form-control input" required>
+                                <label class="account">Last name</label>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-lg-12">
+                                <input type="email" class="form-control input" required>
+                                <label class="account">Email</label>
+                            </div>
+                        </div>
+                        <h3>Shipping Address</h3>
+                        <div class="form-group">
+                            <div class="col-lg-6">
+                                <input type="text" class="form-control input" required>
+                                <label class="account">First name</label>
+                            </div>
+                            <div class="col-lg-6">
+                                <input type="text" class="form-control input" required>
+                                <label class="account">Last name</label>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-lg-12">
+                                <input type="number" class="form-control input" required>
+                                <label class="account">Phone</label>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-lg-12">
+                                <input type="text" class="form-control input" required>
+                                <label class="account">Address</label>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-lg-6">
+                                <input type="text" class="form-control input" value="United State" required>
+                                <label class="account">Country</label>
+                            </div>
+                            <div class="col-lg-6">
+                                <input type="text" class="form-control input" required>
+                                <label class="account">State</label>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-lg-6">
+                                <input type="text" class="form-control input" required>
+                                <label class="account">Zip Code</label>
+                            </div>
+                            <div class="col-lg-6">
+                                <input type="text" class="form-control input" required>
+                                <label class="account">City</label>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label>
+                                <input type="checkbox" class="option-input checkbox" CHECKED/>
+                                I want to request a business access (What is this?)
+                            </label>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-lg-6">
+                                <input type="text" class="form-control input" required>
+                                <label class="account">Password</label>
+                            </div>
+                            <div class="col-lg-6">
+                                <input type="text" class="form-control input" required>
+                                <label class="account">Confirm Password</label>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <h3>Special Request / Message</h3>
+                    <div class="form-group">
+                        <div class="col-lg-12">
+                            <textarea class="form-control input" rows="7"></textarea>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-lg-6">
+                            <input type="button" class="form-control button" value="PLACE ORDER">
+
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-lg-12">
+                            <p class="ToS">By placing your order, you agreed with our
+                                <a href="#">Term of Service</a> and <a href="">Privacy Policy</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 summary">
+            <h3>Summary</h3>
+            <div class="row-item ">
+                <div class="text-left">
+                    <p>Items <b class="pull-right">$200</b></p>
+                    <p>Estimated Shipping Fee <b class="pull-right">+$100</b></p>
+                </div>
+                <hr/>
+                <p class="GrandTotal">Grand Total<b class="GrandTotalNumber pull-right ">$300</b></p>
+                <div class="form-group">
+                    <input type="button" class="form-control  button continue" value="CONTINUE SHOPPING">
+                    <input type="button" class="form-control button" value="PLACE ORDER">
+                    <p class="ToS">By placing your order, you agreed with our
+                        <a href="#">Term of Service</a> and <a href="">Privacy Policy</a></p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</div>

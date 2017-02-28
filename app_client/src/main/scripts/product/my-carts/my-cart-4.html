@@ -1,0 +1,172 @@
+<div class="account">
+    <div class="container">
+        <div class="row Change-Passwo">
+            <p class="linkTop">Home / My Cart</p>
+        </div>
+        <div class="col-lg-8">
+            <h3>My Cart <span>(2 Items)</span></h3>
+            <div class="form-horizontal">
+                <div class="form-group">
+                    <div class="row row-item ">
+                        <div class="col-lg-2 col-xs-3 ">
+                            <img class="imgItem" src="assets/img/home/greenchair.jpg">
+
+                        </div>
+                        <div class="col-lg-5 col-xs-4">
+                            <div class="nameItem">
+                                <h3>Garden Chairs</h3>
+                                <p class="des">Althusser Competing Interpellations And The Third Text</p>
+                            </div>
+                            <div class="remove-icon">
+                                <a href="#"><img src="assets/img/home/remove.svg">&nbspRemove</a>
+                            </div>
+
+                        </div>
+                        <div class="col-lg-1 col-xs-2">
+                            <p class="titleRow-left">Price</p>
+                            <p class="price">$200</p>
+                        </div>
+                        <div class="col-lg-2 col-xs-1">
+                            <p class="titleRow-right">Qty</p>
+                            <div class="input-group spinner pull-right">
+                                <input type="text" class="form-control" value="1">
+                                <div class="input-group-btn-vertical">
+                                    <button class="btn btn-default" type="button"><i
+                                            class="fa fa-caret-up"></i></button>
+                                    <button class="btn btn-default" type="button"><i
+                                            class="fa fa-caret-down"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-xs-2">
+                            <p class="titleRow-right">Amount</p>
+                            <p class="qty">$200</p>
+                        </div>
+                    </div>
+                    <hr/>
+                    <div class="row row-item ">
+                        <div class="col-lg-2 col-xs-3 ">
+                            <img class="imgItem" src="assets/img/home/greenchair.jpg">
+
+                        </div>
+                        <div class="col-lg-5 col-xs-4">
+                            <div class="nameItem">
+                                <h3>Garden Chairs</h3>
+                                <p class="des">Althusser Competing Interpellations And The Third Text</p>
+                            </div>
+                            <div class="remove-icon">
+                                <a href="#"><img src="assets/img/home/remove.svg">&nbspRemove</a>
+                            </div>
+
+                        </div>
+                        <div class="col-lg-1 col-xs-2">
+                            <p class="titleRow-left">Price</p>
+                            <p class="price">$200</p>
+                        </div>
+                        <div class="col-lg-2 col-xs-1">
+                            <p class="titleRow-right">Qty</p>
+                            <div class="input-group spinner pull-right">
+                                <input type="text" class="form-control" value="1">
+                                <div class="input-group-btn-vertical">
+                                    <button class="btn btn-default" type="button"><i
+                                            class="fa fa-caret-up"></i></button>
+                                    <button class="btn btn-default" type="button"><i
+                                            class="fa fa-caret-down"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-xs-2">
+                            <p class="titleRow-right">Amount</p>
+                            <p class="qty">$200</p>
+                        </div>
+                    </div>
+                    <hr/>
+                </div>
+
+            </div>
+
+            <div class="form-horizontal customerInfor" ng-controller="loginCtrl">
+                <h3>Customer Information</h3>
+                <div class="form-group">
+                    <div class="col-lg-1"><img src="./assets/img/icon/user_icon.png" height="256"
+                                               width="256"/></div>
+                    <div class="col-lg-11"><p>{{currentUser.name}}<span>({{currentUser.email}})</span></p>
+                        <a href="#" ng-click="logOut()">Log Out</a></div>
+                </div>
+                <h3>Shipping Address</h3>
+                <div class="form-group ">
+
+                    <div class="col-lg-6">
+                        <div class="address" id="address1" onclick="openDiv('address2')">
+                            <p class="nametitle">Nhan Nguyen</p>
+                            <p>+84 906 404 101</p>
+                            <div class="pull-right"></div>
+                            <img id="car2" src="assets/img/home/delivery.svg" class="Delivery">
+                            <p>&nbsp;</p>
+                            <p>1981 Broadway</p>
+                            <p>New York, NY 10023</p>
+                            <p>New York</p>
+                            <p>United State <a>Edit</a></p>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="address" id="address2" onclick="openDiv('address1')">
+                            <p class="nametitle">Nhan Nguyen</p>
+                            <p>+84 906 404 101</p>
+                            <img id="car1" src="assets/img/home/delivery.svg" class="Delivery">
+                            <p>&nbsp;</p>
+                            <p>70 Cu Chinh Lan St</p>
+                            <p>Thanh Khe District,</p>
+                            <p>Da Nang, 550000</p>
+                            <p>VietNam <a>Edit</a></p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="form-group ">
+                    <div class="col-lg-6">
+                        <a href="#">Add new shipping address</a>
+                    </div>
+                </div>
+                <h3>Special Request / Message</h3>
+                <div class="form-group">
+                    <div class="col-lg-12">
+                        <textarea class="form-control input" rows="7"></textarea>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-lg-6">
+                        <input type="button" class="form-control button" value="PLACE ORDER">
+
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-lg-12">
+                        <p class="ToS">By placing your order, you agreed with our
+                            <a href="#">Term of Service</a> and <a href="">Privacy Policy</a></p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="col-lg-4 summary">
+            <h3>Summary</h3>
+            <div class="row-item ">
+                <div class="text-left">
+                    <p>Items <b class="pull-right">$200</b></p>
+                    <p>Estimated Shipping Fee <b class="pull-right">+$100</b></p>
+                </div>
+                <hr/>
+                <p class="GrandTotal">Grand Total<b class="GrandTotalNumber pull-right ">$300</b></p>
+                <div class="form-group">
+                    <input type="button" class="form-control  button continue" value="CONTINUE SHOPPING">
+                    <input type="button" class="form-control button" value="PLACE ORDER">
+                    <p class="ToS">By placing your order, you agreed with our
+                        <a href="#">Term of Service</a> and <a href="">Privacy Policy</a></p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>

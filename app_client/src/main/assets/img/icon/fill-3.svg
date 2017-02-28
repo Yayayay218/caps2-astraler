@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="44px" height="43px" viewBox="0 0 44 43" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>A217BFD4-4174-4A82-A9ED-B40E4B7EC4F5</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="6" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="7.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Main" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.5">
+        <g id="Collection#2" transform="translate(-1049.000000, -250.000000)" fill="#434343">
+            <g id="Login_Popup-#2" filter="url(#filter-1)" transform="translate(1035.000000, 131.000000)">
+                <g id="Popup">
+                    <path d="M28,127.99968 L28,137.066759 L30.1338382,137.066759 L30.1338382,135.999573 L29.0666524,135.999573 L29.0666524,129.066866 L39.7337102,129.066866 L39.7337102,130.132985 L40.7998293,130.132985 L40.7998293,127.99968 L28,127.99968 Z M31.1999573,131.199637 L31.1999573,140.266183 L38.1331982,140.266183 L41.8664818,144 L41.8664818,140.266183 L43.9997867,140.266183 L43.9997867,131.199637 L31.1999573,131.199637 Z M32.2666098,132.26629 L42.9331342,132.26629 L42.9331342,139.200064 L40.7998293,139.200064 L40.7998293,141.332836 L38.6665244,139.200064 L32.2666098,139.200064 L32.2666098,132.26629 Z" id="Page-1"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
