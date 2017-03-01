@@ -11,7 +11,7 @@ function headerCtrl($scope, $location, auth) {
 
     $scope.checkOut = function () {
         if(auth.isLoggedIn())
-            $location.path('myCart4');
+            $location.path('checkout/cart');
         else
             $location.path('check-out');
     }

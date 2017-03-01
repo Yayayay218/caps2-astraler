@@ -13,7 +13,7 @@ var ctrlAuth = require('../controllers/authentication');
 // router.get('/profile', auth, ctrlProfile.profileRead);
 
 // authentication
-// router.post('/register', ctrlAuth.register);
+router.post('/register', ctrlAuth.register);
 router.post('/login', ctrlAuth.login);
 
 module.exports = router;

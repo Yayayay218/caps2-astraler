@@ -41,6 +41,12 @@ function auth($http, $window) {
         }
     };
 
+    var register = function (user) {
+        return $http.post('/api/register', user).success(function (data) {
+            saveToken(data.token);
+        });
+    };
+
     var login = function(user) {
         return $http.post('/api/login', user).success(function(data) {
             saveToken(data.token);
@@ -56,6 +62,7 @@ function auth($http, $window) {
         saveToken : saveToken,
         getToken : getToken,
         isLoggedIn: isLoggedIn,
+        register: register,
         login: login,
         logout : logout
     };

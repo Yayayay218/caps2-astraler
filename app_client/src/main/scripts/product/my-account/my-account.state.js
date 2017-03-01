@@ -1,20 +1,18 @@
 'use strict';
 
 angular.module('bmcApp')
+
     .config(function ($stateProvider) {
 
         $stateProvider
 
-            .state('myCart4', {
-                url: '/checkout/cart',
+            .state('my-account', {
+                url: '/myAccount',
                 parent: 'home',
                 views: {
                     'content@': {
-                        templateUrl: 'scripts/product/my-carts/my-cart-4.html',
-                        controller: 'myCart2Ctrl'
+                        templateUrl: 'scripts/product/my-account/my-account.html'
                     }
                 }
-            })
-
-
+            });
     });

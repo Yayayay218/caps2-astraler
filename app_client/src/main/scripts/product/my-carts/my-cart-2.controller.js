@@ -12,4 +12,5 @@ angular.module('bmcApp')
             quantity: '2',
             amount: '$200'
         };
+
     });

@@ -4,13 +4,14 @@ angular.module('bmcApp')
 
     .controller('loginCtrl', loginCtrl);
 
-function loginCtrl($scope, $state, auth) {
+function loginCtrl($scope, $state, auth, $location) {
 
     $scope.credentials = {
         email: '',
         password: ''
     }
 
+    // Home/Login
     $scope.onSubmit = function () {
         auth
             .login($scope.credentials)
@@ -22,8 +23,19 @@ function loginCtrl($scope, $state, auth) {
             })
     };
 
+    // Check-out / Login
+    $scope.onLogin = function () {
+        auth.login($scope.credentials)
+            .error(function (err) {
+                alert(err);
+            })
+            .then(function () {
+                $location.path('myCart4');
+            })
+    }
+
     $scope.logOut = function () {
-        auth.logout()
+        auth.logout();
         $state.reload();
     };
 
