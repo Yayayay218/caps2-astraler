@@ -20,6 +20,7 @@ function auth($http, $window) {
             payload = $window.atob(payload);
             payload = JSON.parse(payload);
             return {
+                _id : payload._id,
                 email : payload.email,
                 name : payload.name
             };
@@ -57,12 +58,21 @@ function auth($http, $window) {
         $window.localStorage.removeItem('mean-token');
     };
 
+    var getProfile = function () {
+        return $http.get('/api/profile', {
+            headers: {
+                Authorization: 'Bearer '+ auth.getToken()
+            }
+        });
+    };
+
     return {
         currentUser: currentUser,
         saveToken : saveToken,
         getToken : getToken,
         isLoggedIn: isLoggedIn,
         register: register,
+        getProfile: getProfile,
         login: login,
         logout : logout
     };

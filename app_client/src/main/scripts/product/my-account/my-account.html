@@ -1,4 +1,4 @@
-<div class="account">
+<div class="account" ng-controller="loginCtrl">
     <div class="container">
         <div class="row Change-Passwo">
             <p class="linkTop">Home / My Account</p>
@@ -6,10 +6,10 @@
         <div class="col-lg-3">
             <div class="dashboard-account">
                 <ul class="text-style">
-                    <li ><a ui-sref="my-account">My Account</a></li>
-                    <li ><a ui-sref="my-order">My Order</a></li>
-                    <li ><a href="">Inbox</a></li>
-                    <li ><a href="">Change Password</a></li>
+                    <li><a ui-sref="my-account">My Account</a></li>
+                    <li><a ui-sref="my-order">My Order</a></li>
+                    <li><a href="">Inbox</a></li>
+                    <li><a href="">Change Password</a></li>
                 </ul>
             </div>
         </div>
@@ -25,7 +25,7 @@
                     </div>
                     <div class="form-group">
                         <div class="col-lg-6">
-                            <input type="text" class="form-control input" required>
+                            <input type="text" class="form-control input" ng-model="currentUser.name" required>
                             <label class="account">First name</label>
                         </div>
                         <div class="col-lg-6">
@@ -35,13 +35,13 @@
                     </div>
                     <div class="form-group">
                         <div class="col-lg-12">
-                            <input type="email" class="form-control input" required>
+                            <input type="email" class="form-control input" ng-model="currentUser.email" required>
                             <label class="account">Email</label>
                         </div>
                     </div>
                     <div class="form-group">
                         <div class="col-lg-12">
-                            <input type="number" class="form-control input" required>
+                            <input type="text" class="form-control input" required>
                             <label class="account">Phone</label>
                         </div>
                     </div>
@@ -87,10 +87,10 @@
                         <h3>Shipping Address</h3>
                         <div class="col-lg-6">
                             <div class="address" id="address1" onclick="openDiv('address2')">
-                                <p class="nametitle">Nhan Nguyen</p>
+                                <p class="nametitle">{{currentUser.name}}</p>
                                 <p>+84 906 404 101</p>
                                 <div class="pull-right"></div>
-                                <img id="car2" src="images/delivery.svg" class="Delivery">
+                                <img id="car2" src="./assets/img/icon/delivery.svg" class="Delivery">
                                 <p>&nbsp;</p>
                                 <p>1981 Broadway</p>
                                 <p>New York, NY 10023</p>
@@ -101,9 +101,9 @@
                         </div>
                         <div class="col-lg-6">
                             <div class="address" id="address2" onclick="openDiv('address1')">
-                                <p class="nametitle">Nhan Nguyen</p>
+                                <p class="nametitle">{{currentUser.name}}</p>
                                 <p>+84 906 404 101</p>
-                                <img id="car1" src="images/delivery.svg" class="Delivery">
+                                <img id="car1" src="./assets/img/icon/delivery.svg" class="Delivery">
                                 <p>&nbsp;</p>
                                 <p>70 Cu Chinh Lan St</p>
                                 <p>Thanh Khe District,</p>

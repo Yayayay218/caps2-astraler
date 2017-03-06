@@ -7,7 +7,7 @@ angular.module('bmcApp')
         $stateProvider
 
             .state('my-account', {
-                url: '/myAccount',
+                url: '/customer/account/edit',
                 parent: 'home',
                 views: {
                     'content@': {

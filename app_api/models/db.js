@@ -1,6 +1,6 @@
 var mongoose = require('mongoose');
 var gracefulShutdown;
-var dbURI = 'mongodb://localhost:27017/meanAuth';
+var dbURI = 'mongodb://astraler:astraler2017@ds119370.mlab.com:19370/bmc';
 if (process.env.NODE_ENV === 'production') {
     dbURI = process.env.MONGOLAB_URI;
 }
@@ -47,3 +47,4 @@ process.on('SIGTERM', function() {
 
 // BRING IN YOUR SCHEMAS & MODELS
 require('./users');
+require('./banners');

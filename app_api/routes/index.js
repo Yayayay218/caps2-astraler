@@ -6,14 +6,23 @@ var auth = jwt({
     userProperty: 'payload'
 });
 
-// var ctrlProfile = require('../controllers/profile');
+// var ctrlMyAccount = require('../controllers/myAccount');
 var ctrlAuth = require('../controllers/authentication');
+var ctrlBanner = require('../controllers/banner');
 
-// profile
-// router.get('/profile', auth, ctrlProfile.profileRead);
+
+// my account
+// router.get('/profile', auth, ctrlAuth.secureLogged);
 
 // authentication
 router.post('/register', ctrlAuth.register);
 router.post('/login', ctrlAuth.login);
+
+// banner
+router.get('/banners', ctrlBanner.bannerGetAll);
+router.get('/banners/:banner_id', ctrlBanner.bannerGetOne);
+router.post('/banners', ctrlBanner.bannerCreate);
+router.put('/banners/:banner_id', ctrlBanner.bannerUpdateOne);
+router.delete('/banners/:banner_id', ctrlBanner.bannerDeleteOne);
 
 module.exports = router;
