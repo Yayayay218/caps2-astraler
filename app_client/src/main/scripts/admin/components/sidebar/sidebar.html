@@ -1,0 +1,211 @@
+<div class="main-container ace-save-state" id="main-container">
+    <div id="sidebar" class="sidebar                  responsive                    ace-save-state" data-sidebar="true"
+         data-sidebar-scroll="true" data-sidebar-hover="true">
+        <script type="text/javascript">
+            try {
+                ace.settings.loadState('sidebar')
+            } catch (e) {
+            }
+        </script>
+        <div class="sidebar-shortcuts" id="sidebar-shortcuts">
+            <div class="sidebar-shortcuts-large" id="sidebar-shortcuts-large">
+                <button class="btn btn-success">
+                    <i class="ace-icon fa fa-signal"></i>
+                </button>
+
+                <button class="btn btn-info">
+                    <i class="ace-icon fa fa-pencil"></i>
+                </button>
+
+                <button class="btn btn-warning">
+                    <i class="ace-icon fa fa-users"></i>
+                </button>
+
+                <button class="btn btn-danger">
+                    <i class="ace-icon fa fa-cogs"></i>
+                </button>
+            </div>
+
+            <div class="sidebar-shortcuts-mini" id="sidebar-shortcuts-mini">
+                <span class="btn btn-success"></span>
+
+                <span class="btn btn-info"></span>
+
+                <span class="btn btn-warning"></span>
+
+                <span class="btn btn-danger"></span>
+            </div>
+        </div><!-- /.sidebar-shortcuts -->
+        <ul class="nav nav-list">
+            <li ng-class="{active: state.name === 'adminHome'}">
+                <a href="admin.html">
+                    <i class="menu-icon fa fa-tachometer"></i>
+                    <span class="menu-text"> Dashboard </span>
+                </a>
+
+                <b class="arrow"></b>
+            </li>
+
+            <li ng-class="{active: state.name === 'user'}">
+                <a href="#" class="dropdown-toggle">
+                    <i class="menu-icon fa fa-user"></i>
+                    <span class="menu-text">
+								User
+							</span>
+
+                    <b class="arrow fa fa-angle-down"></b>
+                </a>
+
+                <b class="arrow"></b>
+
+                <ul class="submenu">
+                    <li ng-class="{active: state.url === '#/admin/user'}">
+                        <a href="#/admin/user">
+                            <i class="menu-icon fa fa-caret-right"></i>
+                            User
+                        </a>
+                        <b class="arrow"></b>
+                    </li>
+                    <li ng-class="{active: state.url === '#/admin/role'}">
+                        <a href="#/admin/role">
+                            <i class="menu-icon fa fa-caret-right"></i>
+                            Role
+                        </a>
+                        <b class="arrow"></b>
+                    </li>
+                </ul>
+            </li>
+            <li ng-class="{active: state.name === 'adminproducts'}">
+                <a href="#" class="dropdown-toggle">
+                    <i class="menu-icon fa fa-shopping-cart"></i>
+                    <span class="menu-text">
+								Products
+							</span>
+
+                    <b class="arrow fa fa-angle-down"></b>
+                </a>
+
+                <b class="arrow"></b>
+
+                <ul class="submenu">
+                    <li ng-class="{active: state.url === '#/admin/products'}">
+                        <a href="#/admin/products">
+                            <i class="menu-icon fa fa-caret-right"></i>
+                            Products
+                        </a>
+                        <b class="arrow"></b>
+                    </li>
+                    <li class="">
+                        <a href="#/admin/products">
+                            <i class="menu-icon fa fa-caret-right"></i>
+                            Properties
+                        </a>
+                        <b class="arrow"></b>
+                    </li>
+                </ul>
+            </li>
+            <li ng-class="{active: state.name === 'adminCategory'}">
+                <a href="#" class="dropdown-toggle">
+                    <i class="menu-icon fa fa-list-ul"></i>
+                    <span class="menu-text">
+								   Categories
+							</span>
+
+                    <b class="arrow fa fa-angle-down"></b>
+                </a>
+
+                <b class="arrow"></b>
+
+                <ul class="submenu">
+                    <li ng-class="{active: state.url === '#/admin/category'}">
+                        <a href="#/admin/category">
+                            <i class="menu-icon fa fa-caret-right"></i>
+                            Categories
+                        </a>
+                        <b class="arrow"></b>
+                    </li>
+                    <li ng-class="{active: state.url === '#/admin/subcategory'}">
+                        <a href="#/admin/subcategory">
+                            <i class="menu-icon fa fa-caret-right"></i>
+                            Subcategory
+                        </a>
+                        <b class="arrow"></b>
+                    </li>
+                </ul>
+            </li>
+            <li ng-class="{active: state.name === 'collection'}">
+                <a href="#" class="dropdown-toggle">
+                    <i class="menu-icon fa fa-server"></i>
+                    <span class="menu-text">
+								   Collections
+							</span>
+
+                    <b class="arrow fa fa-angle-down"></b>
+                </a>
+
+                <b class="arrow"></b>
+
+                <ul class="submenu">
+                    <li ng-class="{active: state.url === '#/admin/collection'}">
+                        <a href="#/admin/collection">
+                            <i class="menu-icon fa fa-caret-right"></i>
+                            Collections
+                        </a>
+                        <b class="arrow"></b>
+                    </li>
+                </ul>
+            </li>
+            <li ng-class="{active: state.name === 'orders'}">
+                <a href="#" class="dropdown-toggle">
+                    <i class="menu-icon fa fa-list-alt"></i>
+                    <span class="menu-text">
+								   Orders
+							</span>
+
+                    <b class="arrow fa fa-angle-down"></b>
+                </a>
+
+                <b class="arrow"></b>
+
+                <ul class="submenu">
+                    <li ng-class="{active: state.url === '#/admin/orders'}">
+                        <a href="#/admin/orders">
+                            <i class="menu-icon fa fa-caret-right"></i>
+                            Orders
+                        </a>
+                        <b class="arrow"></b>
+                    </li>
+                </ul>
+            </li>
+            <li ng-class="{active: state.name === 'banner'}">
+                <a href="#" class="dropdown-toggle">
+                    <i class="menu-icon fa fa-television"></i>
+                    <span class="menu-text">
+								   Banners
+							</span>
+
+                    <b class="arrow fa fa-angle-down"></b>
+                </a>
+
+                <b class="arrow"></b>
+
+                <ul class="submenu">
+                    <li ng-class="{active: state.url === '#/admin/banner'}">
+                        <a href="#/admin/banner">
+                            <i class="menu-icon fa fa-caret-right"></i>
+                            Banners
+                        </a>
+                        <b class="arrow"></b>
+                    </li>
+                    <li class="">
+                        <a href="#/admin/banner">
+                            <i class="menu-icon fa fa-caret-right"></i>
+                            Quotes
+                        </a>
+                        <b class="arrow"></b>
+                    </li>
+                </ul>
+            </li>
+        </ul><!-- /.nav-list -->
+    </div>
+</div>

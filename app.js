@@ -35,9 +35,9 @@ app.use('/api', routesApi);
 
 // Otherwise render the index.html page for the Angular SPA
 // This means we don't have to map all of the SPA routes in Express
-app.use(function(req, res) {
-    res.sendFile(path.join(__dirname, 'app_client', 'src', 'main', 'index.html'));
-});
+// app.use(function(req, res) {
+//     res.sendFile(path.join(__dirname, 'app_client', 'src', 'main', 'index.html'));
+// });
 
 /// catch 404 and forwarding to error handler
 app.use(function(req, res, next) {

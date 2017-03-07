@@ -4,11 +4,11 @@ angular.module('bmcApp')
 
     .controller('homePageCtrl', function ($scope, banner) {
         /*Declare Banner Object*/
-        $scope.banner = {
-            title: '',
-            description: '',
-            buttonContent: ''
-        };
+        // $scope.banner = {
+        //     title: '',
+        //     description: '',
+        //     buttonContent: ''
+        // };
 
 
         $scope.bannerByID = banner
