@@ -2,7 +2,117 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9c0832d-773b-4a1f-9736-716b1b19a47d" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app_api/models/categories.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app_client/src/main/assets/product/img/icon/delivery.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app_client/src/main/scripts/product/common/services/category.service.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app_client/src/main/assets/css/BMC1.css" afterPath="$PROJECT_DIR$/app_client/src/main/assets/product/css/BMC1.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app_client/src/main/assets/css/bmc.css" afterPath="$PROJECT_DIR$/app_client/src/main/assets/product/css/bmc.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app_client/src/main/assets/css/bootstrap.css" afterPath="$PROJECT_DIR$/app_client/src/main/assets/product/css/bootstrap.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app_client/src/main/assets/css/email.css" afterPath="$PROJECT_DIR$/app_client/src/main/assets/product/css/email.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app_client/src/main/assets/css/font-awesome.css" afterPath="$PROJECT_DIR$/app_client/src/main/assets/product/css/font-awesome.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app_client/src/main/assets/css/footer.css" afterPath="$PROJECT_DIR$/app_client/src/main/assets/product/css/footer.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app_client/src/main/assets/css/hero-image.css" afterPath="$PROJECT_DIR$/app_client/src/main/assets/product/css/hero-image.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app_client/src/main/assets/css/input.css" afterPath="$PROJECT_DIR$/app_client/src/main/assets/product/css/input.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app_client/src/main/assets/css/parallax-slider.css" afterPath="$PROJECT_DIR$/app_client/src/main/assets/product/css/parallax-slider.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app_client/src/main/assets/css/social-icons.css" afterPath="$PROJECT_DIR$/app_client/src/main/assets/product/css/social-icons.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app_client/src/main/assets/css/spinner.css" afterPath="$PROJECT_DIR$/app_client/src/main/assets/product/css/spinner.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app_client/src/main/assets/fonts/BebasNeue-webfont.eot" afterPath="$PROJECT_DIR$/app_client/src/main/assets/product/fonts/BebasNeue-webfont.eot" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app_client/src/main/assets/fonts/BebasNeue-webfont.svg" afterPath="$PROJECT_DIR$/app_client/src/main/assets/product/fonts/BebasNeue-webfont.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app_client/src/main/assets/fonts/BebasNeue-webfont.ttf" afterPath="$PROJECT_DIR$/app_client/src/main/assets/product/fonts/BebasNeue-webfont.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app_client/src/main/assets/fonts/BebasNeue-webfont.woff" afterPath="$PROJECT_DIR$/app_client/src/main/assets/product/fonts/BebasNeue-webfont.woff" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app_client/src/main/assets/fonts/Dharma Type Font License.txt" afterPath="$PROJECT_DIR$/app_client/src/main/assets/product/fonts/Dharma Type Font License.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app_client/src/main/assets/fonts/FontAwesome.otf" afterPath="$PROJECT_DIR$/app_client/src/main/assets/product/fonts/FontAwesome.otf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app_client/src/main/assets/fonts/fontawesome-webfont.eot" afterPath="$PROJECT_DIR$/app_client/src/main/assets/product/fonts/fontawesome-webfont.eot" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app_client/src/main/assets/fonts/fontawesome-webfont.svg" afterPath="$PROJECT_DIR$/app_client/src/main/assets/product/fonts/fontawesome-webfont.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app_client/src/main/assets/fonts/fontawesome-webfont.ttf" afterPath="$PROJECT_DIR$/app_client/src/main/assets/product/fonts/fontawesome-webfont.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app_client/src/main/assets/fonts/fontawesome-webfont.woff" afterPath="$PROJECT_DIR$/app_client/src/main/assets/product/fonts/fontawesome-webfont.woff" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app_client/src/main/assets/fonts/fontawesome-webfont.woff2" afterPath="$PROJECT_DIR$/app_client/src/main/assets/product/fonts/fontawesome-webfont.woff2" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app_client/src/main/assets/fonts/glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/app_client/src/main/assets/product/fonts/glyphicons-halflings-regular.eot" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app_client/src/main/assets/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/app_client/src/main/assets/product/fonts/glyphicons-halflings-regular.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app_client/src/main/assets/fonts/glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/app_client/src/main/assets/product/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app_client/src/main/assets/fonts/glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/app_client/src/main/assets/product/fonts/glyphicons-halflings-regular.woff" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app_client/src/main/assets/fonts/glyphicons-halflings-regular.woff2" afterPath="$PROJECT_DIR$/app_client/src/main/assets/product/fonts/glyphicons-halflings-regular.woff2" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app_client/src/main/assets/img/arrows.png" afterPath="$PROJECT_DIR$/app_client/src/main/assets/product/img/arrows.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app_client/src/main/assets/img/collections/chair.jpg" afterPath="$PROJECT_DIR$/app_client/src/main/assets/product/img/collections/chair.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app_client/src/main/assets/img/collections/collection-1.jpeg" afterPath="$PROJECT_DIR$/app_client/src/main/assets/product/img/collections/collection-1.jpeg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app_client/src/main/assets/img/collections/collection-2.jpeg" afterPath="$PROJECT_DIR$/app_client/src/main/assets/product/img/collections/collection-2.jpeg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app_client/src/main/assets/img/collections/collection-3.jpeg" afterPath="$PROJECT_DIR$/app_client/src/main/assets/product/img/collections/collection-3.jpeg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app_client/src/main/assets/img/collections/collection-4.jpg" afterPath="$PROJECT_DIR$/app_client/src/main/assets/product/img/collections/collection-4.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app_client/src/main/assets/img/collections/collection-5.jpeg" afterPath="$PROJECT_DIR$/app_client/src/main/assets/product/img/collections/collection-5.jpeg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app_client/src/main/assets/img/collections/collection-6.jpeg" afterPath="$PROJECT_DIR$/app_client/src/main/assets/product/img/collections/collection-6.jpeg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app_client/src/main/assets/img/collections/collection-7.jpeg" afterPath="$PROJECT_DIR$/app_client/src/main/assets/product/img/collections/collection-7.jpeg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app_client/src/main/assets/img/collections/pdf.svg" afterPath="$PROJECT_DIR$/app_client/src/main/assets/product/img/collections/pdf.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app_client/src/main/assets/img/home/about-us.jpeg" afterPath="$PROJECT_DIR$/app_client/src/main/assets/product/img/home/about-us.jpeg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app_client/src/main/assets/img/home/background-collection.png" afterPath="$PROJECT_DIR$/app_client/src/main/assets/product/img/home/background-collection.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app_client/src/main/assets/img/home/bench.jpg" afterPath="$PROJECT_DIR$/app_client/src/main/assets/product/img/home/bench.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app_client/src/main/assets/img/home/best-selling.svg" afterPath="$PROJECT_DIR$/app_client/src/main/assets/product/img/home/best-selling.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app_client/src/main/assets/img/home/cart.svg" afterPath="$PROJECT_DIR$/app_client/src/main/assets/product/img/home/cart.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app_client/src/main/assets/img/home/chair1.jpeg" afterPath="$PROJECT_DIR$/app_client/src/main/assets/product/img/home/chair1.jpeg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app_client/src/main/assets/img/home/greenchair.jpg" afterPath="$PROJECT_DIR$/app_client/src/main/assets/product/img/home/greenchair.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app_client/src/main/assets/img/home/logo.svg" afterPath="$PROJECT_DIR$/app_client/src/main/assets/product/img/home/logo.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app_client/src/main/assets/img/home/recent-collection.jpeg" afterPath="$PROJECT_DIR$/app_client/src/main/assets/product/img/home/recent-collection.jpeg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app_client/src/main/assets/img/home/remove.svg" afterPath="$PROJECT_DIR$/app_client/src/main/assets/product/img/home/remove.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app_client/src/main/assets/img/icon/delivery.svg" afterPath="$PROJECT_DIR$/app_client/src/main/assets/product/img/home/delivery.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app_client/src/main/assets/img/icon/fill-1.svg" afterPath="$PROJECT_DIR$/app_client/src/main/assets/product/img/icon/fill-1.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app_client/src/main/assets/img/icon/fill-2.svg" afterPath="$PROJECT_DIR$/app_client/src/main/assets/product/img/icon/fill-2.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app_client/src/main/assets/img/icon/fill-3.svg" afterPath="$PROJECT_DIR$/app_client/src/main/assets/product/img/icon/fill-3.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app_client/src/main/assets/img/icon/fill-4.svg" afterPath="$PROJECT_DIR$/app_client/src/main/assets/product/img/icon/fill-4.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app_client/src/main/assets/img/icon/login-icon.svg" afterPath="$PROJECT_DIR$/app_client/src/main/assets/product/img/icon/login-icon.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app_client/src/main/assets/img/icon/user_icon.png" afterPath="$PROJECT_DIR$/app_client/src/main/assets/product/img/icon/user_icon.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app_client/src/main/assets/img/parallax-slider/1.png" afterPath="$PROJECT_DIR$/app_client/src/main/assets/product/img/parallax-slider/1.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app_client/src/main/assets/img/parallax-slider/2.png" afterPath="$PROJECT_DIR$/app_client/src/main/assets/product/img/parallax-slider/2.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app_client/src/main/assets/img/parallax-slider/3.png" afterPath="$PROJECT_DIR$/app_client/src/main/assets/product/img/parallax-slider/3.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app_client/src/main/assets/img/parallax-slider/4.png" afterPath="$PROJECT_DIR$/app_client/src/main/assets/product/img/parallax-slider/4.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app_client/src/main/assets/img/parallax-slider/css3.png" afterPath="$PROJECT_DIR$/app_client/src/main/assets/product/img/parallax-slider/css3.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app_client/src/main/assets/img/parallax-slider/html5.png" afterPath="$PROJECT_DIR$/app_client/src/main/assets/product/img/parallax-slider/html5.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app_client/src/main/assets/img/parallax-slider/responsive.png" afterPath="$PROJECT_DIR$/app_client/src/main/assets/product/img/parallax-slider/responsive.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app_client/src/main/assets/img/parallax-slider/twitter.png" afterPath="$PROJECT_DIR$/app_client/src/main/assets/product/img/parallax-slider/twitter.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app_client/src/main/assets/img/product-details/tab1.jpg" afterPath="$PROJECT_DIR$/app_client/src/main/assets/product/img/product-details/tab1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app_client/src/main/assets/img/product-details/tab4.jpg" afterPath="$PROJECT_DIR$/app_client/src/main/assets/product/img/product-details/tab4.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app_client/src/main/assets/img/product-details/tabs2.jpg" afterPath="$PROJECT_DIR$/app_client/src/main/assets/product/img/product-details/tabs2.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app_client/src/main/assets/img/product-details/tabs3.jpg" afterPath="$PROJECT_DIR$/app_client/src/main/assets/product/img/product-details/tabs3.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app_client/src/main/assets/img/slider.jpg" afterPath="$PROJECT_DIR$/app_client/src/main/assets/product/img/slider.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app_client/src/main/assets/img/slider1.jpeg" afterPath="$PROJECT_DIR$/app_client/src/main/assets/product/img/slider1.jpeg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app_client/src/main/assets/img/slider2.jpeg" afterPath="$PROJECT_DIR$/app_client/src/main/assets/product/img/slider2.jpeg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app_client/src/main/assets/img/slider3.jpg" afterPath="$PROJECT_DIR$/app_client/src/main/assets/product/img/slider3.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app_client/src/main/assets/js/angular.min.js" afterPath="$PROJECT_DIR$/app_client/src/main/assets/product/js/angular.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app_client/src/main/assets/js/bootstrap.js" afterPath="$PROJECT_DIR$/app_client/src/main/assets/product/js/bootstrap.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app_client/src/main/assets/js/carousel.js" afterPath="$PROJECT_DIR$/app_client/src/main/assets/product/js/carousel.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app_client/src/main/assets/js/custom.js" afterPath="$PROJECT_DIR$/app_client/src/main/assets/product/js/custom.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app_client/src/main/assets/js/flexslider.js" afterPath="$PROJECT_DIR$/app_client/src/main/assets/product/js/flexslider.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app_client/src/main/assets/js/jquery-3.1.1.min.js" afterPath="$PROJECT_DIR$/app_client/src/main/assets/product/js/jquery-3.1.1.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app_client/src/main/assets/js/jquery.cslider.js" afterPath="$PROJECT_DIR$/app_client/src/main/assets/product/js/jquery.cslider.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app_client/src/main/assets/js/jquery.js" afterPath="$PROJECT_DIR$/app_client/src/main/assets/product/js/jquery.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app_client/src/main/assets/js/npm.js" afterPath="$PROJECT_DIR$/app_client/src/main/assets/product/js/npm.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app_client/src/main/assets/js/slider.js" afterPath="$PROJECT_DIR$/app_client/src/main/assets/product/js/slider.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app_client/src/main/assets/js/spinner.js" afterPath="$PROJECT_DIR$/app_client/src/main/assets/product/js/spinner.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app_client/src/main/assets/js/w3data.js" afterPath="$PROJECT_DIR$/app_client/src/main/assets/product/js/w3data.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app_client/src/main/scripts/common/directives/spinner/spinner.directive.js" afterPath="$PROJECT_DIR$/app_client/src/main/scripts/product/common/directives/spinner/spinner.directive.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app_client/src/main/scripts/common/services/auth.service.js" afterPath="$PROJECT_DIR$/app_client/src/main/scripts/product/common/services/auth.service.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app_client/src/main/scripts/common/services/banner.service.js" afterPath="$PROJECT_DIR$/app_client/src/main/scripts/product/common/services/banner.service.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app_client/src/main/scripts/components/footer/footer.controller.js" afterPath="$PROJECT_DIR$/app_client/src/main/scripts/product/components/footer/footer.controller.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app_client/src/main/scripts/components/footer/footer.html" afterPath="$PROJECT_DIR$/app_client/src/main/scripts/product/components/footer/footer.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app_client/src/main/scripts/components/header/header.controller.js" afterPath="$PROJECT_DIR$/app_client/src/main/scripts/product/components/header/header.controller.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app_client/src/main/scripts/components/header/header.html" afterPath="$PROJECT_DIR$/app_client/src/main/scripts/product/components/header/header.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_api/models/db.js" afterPath="$PROJECT_DIR$/app_api/models/db.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_api/routes/index.js" afterPath="$PROJECT_DIR$/app_api/routes/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_client/src/main/admin.html" afterPath="$PROJECT_DIR$/app_client/src/main/admin.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_client/src/main/index.html" afterPath="$PROJECT_DIR$/app_client/src/main/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_client/src/main/scripts/admin/components/navbar/navbar.html" afterPath="$PROJECT_DIR$/app_client/src/main/scripts/admin/components/navbar/navbar.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_client/src/main/scripts/admin/components/sidebar/sidebar.html" afterPath="$PROJECT_DIR$/app_client/src/main/scripts/admin/components/sidebar/sidebar.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_client/src/main/scripts/admin/content/category/category.controller.js" afterPath="$PROJECT_DIR$/app_client/src/main/scripts/admin/content/category/category.controller.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_client/src/main/scripts/admin/content/category/category.list.template.html" afterPath="$PROJECT_DIR$/app_client/src/main/scripts/admin/content/category/category.list.template.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_client/src/main/scripts/admin/directives/nicescroll.directives.js" afterPath="$PROJECT_DIR$/app_client/src/main/scripts/admin/directives/nicescroll.directives.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_client/src/main/scripts/app.js" afterPath="$PROJECT_DIR$/app_client/src/main/scripts/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_client/src/main/scripts/product/collection-details/collection-details.html" afterPath="$PROJECT_DIR$/app_client/src/main/scripts/product/collection-details/collection-details.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_client/src/main/scripts/product/collections/collections.html" afterPath="$PROJECT_DIR$/app_client/src/main/scripts/product/collections/collections.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_client/src/main/scripts/product/homepage/home-page.html" afterPath="$PROJECT_DIR$/app_client/src/main/scripts/product/homepage/home-page.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_client/src/main/scripts/product/homepage/hompage.controller.js" afterPath="$PROJECT_DIR$/app_client/src/main/scripts/product/homepage/hompage.controller.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_client/src/main/scripts/product/my-account/my-account.html" afterPath="$PROJECT_DIR$/app_client/src/main/scripts/product/my-account/my-account.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_client/src/main/scripts/product/my-carts/my-cart-2.html" afterPath="$PROJECT_DIR$/app_client/src/main/scripts/product/my-carts/my-cart-2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_client/src/main/scripts/product/my-carts/my-cart-4.html" afterPath="$PROJECT_DIR$/app_client/src/main/scripts/product/my-carts/my-cart-4.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_client/src/main/scripts/product/product-details/product-details.html" afterPath="$PROJECT_DIR$/app_client/src/main/scripts/product/product-details/product-details.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,108 +129,7 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app_client/src/main/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="48" column="70" lean-forward="true" selection-start-line="48" selection-start-column="70" selection-end-line="48" selection-end-column="70" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app_client/src/main/scripts/admin/content/home/home.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="6" column="41" lean-forward="false" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="admin.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app_client/src/main/scripts/admin.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="21" column="15" lean-forward="true" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="header.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app_client/src/main/scripts/components/header/header.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="51" column="38" lean-forward="false" selection-start-line="51" selection-start-column="38" selection-end-line="51" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".bowerrc" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.bowerrc">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bower.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bower.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="21" column="4" lean-forward="true" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="category.list.template.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app_client/src/main/scripts/admin/content/category/category.list.template.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="17" column="23" lean-forward="true" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="category.controller.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app_client/src/main/scripts/admin/content/category/category.controller.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="34" column="70" lean-forward="false" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="70" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sidebar.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app_client/src/main/scripts/admin/components/sidebar/sidebar.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1537">
-              <caret line="73" column="45" lean-forward="true" selection-start-line="73" selection-start-column="45" selection-end-line="73" selection-end-column="45" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -153,10 +162,15 @@
       <find>creden</find>
       <find>bower_components/</find>
       <find>myApp</find>
-      <find>assets/</find>
       <find>index.html</find>
-      <find>admin.html#</find>
       <find>logo</find>
+      <find>admin.html#</find>
+      <find>datatables</find>
+      <find>admin.html</find>
+      <find>cate</find>
+      <find>sear</find>
+      <find>assets/product</find>
+      <find>assets/</find>
     </findStrings>
     <replaceStrings>
       <replace>greenchair</replace>
@@ -168,6 +182,8 @@
       <replace>assets/admin/</replace>
       <replace>admin.html</replace>
       <replace>#</replace>
+      <replace>assets/product/</replace>
+      <replace>./assets/product/</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -176,20 +192,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Gruntfile.js" />
-        <option value="$PROJECT_DIR$/.bowerrc" />
-        <option value="$PROJECT_DIR$/bower.json" />
-        <option value="$PROJECT_DIR$/app_api/config/passport.js" />
-        <option value="$PROJECT_DIR$/app_api/controllers/authenticated.js" />
-        <option value="$PROJECT_DIR$/app_api/models/users.js" />
-        <option value="$PROJECT_DIR$/app_client/src/main/scripts/product/auth/login/login.html" />
-        <option value="$PROJECT_DIR$/app_client/src/main/scripts/product/auth/login/login.state.js" />
-        <option value="$PROJECT_DIR$/app_client/src/main/scripts/product/my-carts/my-cart-2.state.js" />
         <option value="$PROJECT_DIR$/app_client/src/main/assets/css/bmc.css" />
-        <option value="$PROJECT_DIR$/app_client/src/main/scripts/product/my-carts/my-cart-4.html" />
         <option value="$PROJECT_DIR$/app_client/src/main/scripts/product/my-order/my-order.html" />
         <option value="$PROJECT_DIR$/app_client/src/main/scripts/product/my-order/my-order.state.js" />
-        <option value="$PROJECT_DIR$/app_client/src/main/scripts/product/my-carts/my-cart-2.html" />
         <option value="$PROJECT_DIR$/app_client/src/main/scripts/product/auth/register/register.controller.js" />
         <option value="$PROJECT_DIR$/app_client/src/main/scripts/product/my-carts/my-cart-2.controller.js" />
         <option value="$PROJECT_DIR$/app_client/src/main/scripts/product/my-carts/my-cart-4.state.js" />
@@ -201,32 +206,43 @@
         <option value="$PROJECT_DIR$/app_client/src/main/scripts/product/my-account/my-account.controller.js" />
         <option value="$PROJECT_DIR$/app_client/src/main/scripts/product/my-account/my-account.state.js" />
         <option value="$PROJECT_DIR$/app_client/src/main/scripts/product/auth/login/login.controller.js" />
-        <option value="$PROJECT_DIR$/app_client/src/main/scripts/product/my-account/my-account.html" />
         <option value="$PROJECT_DIR$/app_client/src/main/scripts/common/directives/spinner/spinner.directive.js" />
         <option value="$PROJECT_DIR$/app_api/models/banners.js" />
-        <option value="$PROJECT_DIR$/app_api/routes/index.js" />
         <option value="$PROJECT_DIR$/app_api/controllers/banner.js" />
         <option value="$PROJECT_DIR$/app_client/src/main/scripts/common/services/banner.service.js" />
-        <option value="$PROJECT_DIR$/app_client/src/main/scripts/product/homepage/home-page.html" />
-        <option value="$PROJECT_DIR$/app_api/models/db.js" />
         <option value="$PROJECT_DIR$/app_client/src/main/app.admin.js" />
         <option value="$PROJECT_DIR$/app_client/src/main/scripts/index.admin.html" />
-        <option value="$PROJECT_DIR$/app_client/src/main/index.html" />
         <option value="$PROJECT_DIR$/app_client/src/main/index.admin.html" />
         <option value="$PROJECT_DIR$/app_client/src/main/scripts/app.admin.js" />
         <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/app_client/src/main/scripts/admin/content/banner/banner.controller.js" />
-        <option value="$PROJECT_DIR$/app_client/src/main/scripts/app.js" />
         <option value="$PROJECT_DIR$/app_client/src/main/scripts/admin.js" />
-        <option value="$PROJECT_DIR$/app_client/src/main/scripts/product/homepage/hompage.controller.js" />
-        <option value="$PROJECT_DIR$/app_client/src/main/admin.html" />
         <option value="$PROJECT_DIR$/app_client/src/main/scripts/admin/auth/login/login.html" />
-        <option value="$PROJECT_DIR$/app_client/src/main/scripts/admin/components/navbar/navbar.html" />
-        <option value="$PROJECT_DIR$/app_client/src/main/scripts/admin/components/sidebar/sidebar.html" />
-        <option value="$PROJECT_DIR$/app_client/src/main/scripts/admin/content/category/category.list.template.html" />
         <option value="$PROJECT_DIR$/app_client/src/main/scripts/admin/content/home/home.html" />
         <option value="$PROJECT_DIR$/app_client/src/main/scripts/components/header/header.html" />
+        <option value="$PROJECT_DIR$/app_client/src/main/scripts/app.js" />
+        <option value="$PROJECT_DIR$/app_client/src/main/scripts/admin/directives/nicescroll.directives.js" />
+        <option value="$PROJECT_DIR$/app_client/src/main/scripts/admin/content/category/category.list.template.html" />
         <option value="$PROJECT_DIR$/app_client/src/main/scripts/admin/content/category/category.controller.js" />
+        <option value="$PROJECT_DIR$/app_client/src/main/admin.html" />
+        <option value="$PROJECT_DIR$/app_client/src/main/scripts/admin/components/navbar/navbar.html" />
+        <option value="$PROJECT_DIR$/app_client/src/main/scripts/admin/components/sidebar/sidebar.html" />
+        <option value="$PROJECT_DIR$/app_api/controllers/categories.js" />
+        <option value="$PROJECT_DIR$/app_api/routes/index.js" />
+        <option value="$PROJECT_DIR$/app_api/models/categories.js" />
+        <option value="$PROJECT_DIR$/app_api/models/db.js" />
+        <option value="$PROJECT_DIR$/app_client/src/main/scripts/product/common/services/category.service.js" />
+        <option value="$PROJECT_DIR$/app_client/src/main/scripts/product/homepage/hompage.controller.js" />
+        <option value="$PROJECT_DIR$/app_client/src/main/index.html" />
+        <option value="$PROJECT_DIR$/app_client/src/main/scripts/product/components/header/header.controller.js" />
+        <option value="$PROJECT_DIR$/app_client/src/main/scripts/product/components/header/header.html" />
+        <option value="$PROJECT_DIR$/app_client/src/main/scripts/product/collection-details/collection-details.html" />
+        <option value="$PROJECT_DIR$/app_client/src/main/scripts/product/collections/collections.html" />
+        <option value="$PROJECT_DIR$/app_client/src/main/scripts/product/homepage/home-page.html" />
+        <option value="$PROJECT_DIR$/app_client/src/main/scripts/product/my-account/my-account.html" />
+        <option value="$PROJECT_DIR$/app_client/src/main/scripts/product/my-carts/my-cart-2.html" />
+        <option value="$PROJECT_DIR$/app_client/src/main/scripts/product/my-carts/my-cart-4.html" />
+        <option value="$PROJECT_DIR$/app_client/src/main/scripts/product/product-details/product-details.html" />
       </list>
     </option>
   </component>
@@ -307,121 +323,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="app_client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="04_BMC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="04_BMC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app_client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="04_BMC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="04_BMC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app_client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="content" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="04_BMC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="04_BMC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app_client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="content" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="category" />
+              <option name="myItemId" value="app_api" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -433,25 +335,26 @@
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path" value="/usr/bin/node" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../03_Test/getting-MEAN" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="js-jscs-nodeInterpreter" value="/usr/bin/node" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/app_client/src/main" />
-      <recent name="$PROJECT_DIR$/app_client/src/main/scripts" />
-      <recent name="$PROJECT_DIR$/app_client/src/main/scripts/common/services" />
-      <recent name="$PROJECT_DIR$/app_client/src/main/scripts/common" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app_client/src/main/assets/img/home" />
       <recent name="$PROJECT_DIR$/app_client/src/main/assets/admin" />
       <recent name="$PROJECT_DIR$/app_client/src/main/scripts" />
       <recent name="$PROJECT_DIR$/app_client/src/main/assets" />
       <recent name="$PROJECT_DIR$/app_client/src/main/assets/img/icon" />
-      <recent name="$PROJECT_DIR$/app_client/src/main/scripts/product/auth/register" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app_client/src/main/assets/product" />
+      <recent name="$PROJECT_DIR$/app_client/src/main/scripts/product" />
+      <recent name="$PROJECT_DIR$/app_client/src/main" />
+      <recent name="$PROJECT_DIR$/app_client/src/main/scripts" />
+      <recent name="$PROJECT_DIR$/app_client/src/main/scripts/common/services" />
     </key>
   </component>
   <component name="RunManager">
@@ -534,34 +437,35 @@
       <workItem from="1488793134678" duration="345000" />
       <workItem from="1488796123671" duration="712000" />
       <workItem from="1488801326079" duration="676000" />
-      <workItem from="1488848276903" duration="2449000" />
+      <workItem from="1488848276903" duration="20248000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67792000" />
+    <option name="totallyTimeSpent" value="85591000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1855" height="1056" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22489083" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294979" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33054394" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294979" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -575,155 +479,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app_client/src/main/scripts/product/auth/register/register.controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app_client/src/main/scripts/product/my-carts/my-cart-2.controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app_client/src/main/scripts/product/my-carts/my-cart-2.state.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="49" lean-forward="false" selection-start-line="13" selection-start-column="49" selection-end-line="13" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app_client/src/main/scripts/product/my-carts/my-cart-4.state.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app_api/controllers/myAccount.js" />
-    <entry file="file://$PROJECT_DIR$/app_client/src/main/scripts/product/my-account/my-account.controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="29" lean-forward="true" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app_client/src/main/scripts/product/my-account/my-account.state.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="81" lean-forward="false" selection-start-line="13" selection-start-column="81" selection-end-line="13" selection-end-column="81" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app_client/src/main/assets/img/icon/delivery.svg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app_client/src/main/scripts/product/my-account/my-account.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="774">
-          <caret line="43" column="82" lean-forward="false" selection-start-line="43" selection-start-column="82" selection-end-line="43" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app_client/src/main/assets/js/custom.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="108" column="7" lean-forward="true" selection-start-line="92" selection-start-column="4" selection-end-line="108" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app_client/src/main/scripts/common/directives/spinner/spinner.directive.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="21" column="49" lean-forward="false" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app_client/src/main/assets/css/bmc.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="174" column="43" lean-forward="false" selection-start-line="174" selection-start-column="39" selection-end-line="174" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app_api/controllers/authentication.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-360">
-          <caret line="25" column="30" lean-forward="true" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app_client/src/main/scripts/product/homepage/hompage.state.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="15" lean-forward="true" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app_api/models/banners.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app_client/src/main/scripts/common/services/auth.service.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app_api/models/users.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="3" lean-forward="true" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app_api/controllers/banner.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1170">
-          <caret line="65" column="39" lean-forward="true" selection-start-line="65" selection-start-column="39" selection-end-line="65" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app_client/src/main/scripts/common/services/banner.service.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="40" lean-forward="false" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app_client/src/main/scripts/admin/config/database.js" />
-    <entry file="file://$PROJECT_DIR$/app_client/src/main/scripts/product/homepage/home-page.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="51" lean-forward="false" selection-start-line="7" selection-start-column="51" selection-end-line="7" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app_api/models/db.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="22" column="44" lean-forward="true" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app_client/src/main/scripts/product/auth/login/login.controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app_client/src/main/app.admin.js" />
     <entry file="file://$PROJECT_DIR$/app_client/src/main/index.admin.html" />
     <entry file="file://$PROJECT_DIR$/app_client/src/main/scripts/app.admin.js" />
@@ -732,14 +487,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-108">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app_client/src/main/scripts/product/homepage/hompage.controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="19" column="37" lean-forward="false" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -755,14 +502,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app_api/routes/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="33" lean-forward="true" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
           <folding />
         </state>
       </provider>
@@ -791,58 +530,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="21" column="19" lean-forward="true" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app_client/src/main/scripts/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="38" lean-forward="true" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app_client/src/main/scripts/components/header/header.controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="35" lean-forward="false" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app_client/src/main/admin.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1026">
-          <caret line="132" column="0" lean-forward="true" selection-start-line="132" selection-start-column="0" selection-end-line="132" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app_client/src/main/scripts/admin/content/category/category.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app_client/src/main/scripts/admin/components/navbar/navbar.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="38" column="48" lean-forward="false" selection-start-line="38" selection-start-column="48" selection-end-line="38" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app_client/src/main/scripts/admin/components/sidebar/sidebar.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1537">
-          <caret line="73" column="45" lean-forward="true" selection-start-line="73" selection-start-column="45" selection-end-line="73" selection-end-column="45" />
           <folding />
         </state>
       </provider>
@@ -855,26 +546,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app_client/src/main/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="48" column="70" lean-forward="true" selection-start-line="48" selection-start-column="70" selection-end-line="48" selection-end-column="70" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app_client/src/main/scripts/admin/content/home/home.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="6" column="41" lean-forward="false" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app_client/src/main/scripts/components/header/header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="51" column="38" lean-forward="false" selection-start-line="51" selection-start-column="38" selection-end-line="51" selection-end-column="38" />
           <folding />
         </state>
       </provider>
@@ -895,27 +570,324 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app_client/src/main/scripts/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="50" lean-forward="false" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_client/src/main/scripts/admin/directives/nicescroll.directives.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="21" column="4" lean-forward="true" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+        <state relative-caret-position="306">
+          <caret line="17" column="25" lean-forward="true" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="31" lean-forward="true" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app_client/src/main/scripts/admin/content/category/category.list.template.html">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="13" lean-forward="true" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_client/src/main/scripts/admin/components/footer/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_client/src/main/scripts/admin/components/navbar/navbar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_client/src/main/scripts/admin/components/sidebar/sidebar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="86" column="0" lean-forward="true" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_api/controllers/authentication.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="25" column="30" lean-forward="true" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_client/src/main/scripts/product/auth/register/register.controller.js">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
-          <caret line="17" column="23" lean-forward="true" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+          <caret line="17" column="36" lean-forward="false" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_client/src/main/scripts/product/common/services/banner.service.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="27" lean-forward="false" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_client/src/main/scripts/product/common/services/auth.service.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="46" column="34" lean-forward="true" selection-start-line="46" selection-start-column="34" selection-end-line="46" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_client/src/main/admin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="89" column="25" lean-forward="false" selection-start-line="89" selection-start-column="23" selection-end-line="89" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app_client/src/main/scripts/admin/content/category/category.controller.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="34" column="70" lean-forward="false" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="70" />
+        <state relative-caret-position="324">
+          <caret line="18" column="13" lean-forward="true" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_api/models/categories.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="47" lean-forward="false" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_client/src/main/scripts/product/common/services/category.service.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="24" column="32" lean-forward="true" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_api/controllers/category.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="21" column="2" lean-forward="false" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_api/models/db.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="519">
+          <caret line="50" column="24" lean-forward="false" selection-start-line="50" selection-start-column="24" selection-end-line="50" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_client/src/main/scripts/product/homepage/hompage.controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="29" column="15" lean-forward="false" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_client/src/main/assets/product/img/home/delivery.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_client/src/main/scripts/product/components/header/header.controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="22" lean-forward="false" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_api/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="25" column="30" lean-forward="false" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_api/models/banners.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_api/controllers/banner.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="83" column="60" lean-forward="true" selection-start-line="83" selection-start-column="60" selection-end-line="83" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_client/src/main/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="63" column="66" lean-forward="true" selection-start-line="63" selection-start-column="66" selection-end-line="63" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_client/src/main/scripts/product/components/header/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1217">
+          <caret line="216" column="91" lean-forward="false" selection-start-line="216" selection-start-column="91" selection-end-line="216" selection-end-column="91" />
+          <folding>
+            <element signature="n#style#0;n#button#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#header#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#header#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#span#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#header#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#1;n#header#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#form#0;n#li#2;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#1;n#header#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#5;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#1;n#header#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#3;n#div#0;n#div#0;n#div#1;n#header#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#4;n#div#0;n#div#0;n#div#1;n#header#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_client/src/main/scripts/product/collection-details/collection-details.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#2;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_client/src/main/scripts/product/collections/collections.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="23" column="14" lean-forward="true" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#5;n#div#0;n#div#1;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_client/src/main/scripts/product/components/footer/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_client/src/main/scripts/product/homepage/home-page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2151">
+          <caret line="123" column="39" lean-forward="false" selection-start-line="123" selection-start-column="39" selection-end-line="123" selection-end-column="39" />
+          <folding>
+            <element signature="n#style#0;n#h2#1;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#section#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_client/src/main/scripts/product/my-account/my-account.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="105" column="69" lean-forward="false" selection-start-line="105" selection-start-column="69" selection-end-line="105" selection-end-column="69" />
+          <folding>
+            <element signature="e#4795#4801#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_client/src/main/scripts/product/my-carts/my-cart-1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="50" lean-forward="true" selection-start-line="11" selection-start-column="50" selection-end-line="11" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_client/src/main/scripts/product/my-carts/my-cart-2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="857">
+          <caret line="60" column="75" lean-forward="false" selection-start-line="60" selection-start-column="75" selection-end-line="60" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_client/src/main/scripts/product/product-details/product-details.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="21" column="23" lean-forward="true" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#li#1;n#ul#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#li#2;n#ul#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#li#3;n#ul#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#1;n#div#0;n#div#1;n#div#1;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#button#0;n#div#0;n#div#0;n#div#4;n#div#0;n#div#1;n#div#1;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#1;n#div#0;n#div#1;n#div#2;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#button#0;n#div#0;n#div#0;n#div#4;n#div#0;n#div#1;n#div#2;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#2;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_client/src/main/scripts/product/my-order/my-order.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2154">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_client/src/main/scripts/product/my-carts/my-cart-4.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding>
+            <element signature="e#5465#5471#1" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

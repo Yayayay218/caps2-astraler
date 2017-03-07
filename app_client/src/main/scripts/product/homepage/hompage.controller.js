@@ -2,14 +2,7 @@
 
 angular.module('bmcApp')
 
-    .controller('homePageCtrl', function ($scope, banner) {
-        /*Declare Banner Object*/
-        // $scope.banner = {
-        //     title: '',
-        //     description: '',
-        //     buttonContent: ''
-        // };
-
+    .controller('homePageCtrl', function ($scope, banner, CategoryService) {
 
         $scope.bannerByID = banner
             .bannerByID('58bd1d61e2b2605dfa48731e')
@@ -22,7 +15,7 @@ angular.module('bmcApp')
                     description: response.data.description,
                     buttonContent: response.data.buttonContent
                 };
-                console.log($scope.bannerByID);
+                // console.log($scope.bannerByID);
             });
 
 
@@ -35,5 +28,4 @@ angular.module('bmcApp')
                 $scope.listBanners = response.data;
                 console.log($scope.listBanners);
             });
-
     });

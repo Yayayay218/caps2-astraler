@@ -9,7 +9,7 @@ var auth = jwt({
 // var ctrlMyAccount = require('../controllers/myAccount');
 var ctrlAuth = require('../controllers/authentication');
 var ctrlBanner = require('../controllers/banner');
-
+var ctrlCate = require('../controllers/category');
 
 // my account
 // router.get('/profile', auth, ctrlAuth.secureLogged);
@@ -24,5 +24,8 @@ router.get('/banners/:banner_id', ctrlBanner.bannerGetOne);
 router.post('/banners', ctrlBanner.bannerCreate);
 router.put('/banners/:banner_id', ctrlBanner.bannerUpdateOne);
 router.delete('/banners/:banner_id', ctrlBanner.bannerDeleteOne);
+
+//  category
+router.get('/categories', ctrlCate.listAllCategory);
 
 module.exports = router;

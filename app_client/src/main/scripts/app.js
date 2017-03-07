@@ -10,12 +10,12 @@ bmcApp.config(function ($stateProvider, $urlRouterProvider) {
         .state('home', {
             views: {
                 'header': {
-                    templateUrl: 'scripts/components/header/header.html',
+                    templateUrl: 'scripts/product/components/header/header.html',
                     controller: 'headerCtrl'
                 },
 
                 'footer': {
-                    templateUrl: 'scripts/components/footer/footer.html',
+                    templateUrl: 'scripts/product/components/footer/footer.html',
                     controller: 'footerCtrl'
                 }
             }
