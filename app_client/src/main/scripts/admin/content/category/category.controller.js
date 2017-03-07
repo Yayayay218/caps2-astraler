@@ -45,7 +45,7 @@ angular.module('bmcApp')
                             return Button.groupButton([Button.editButton(), Button.deleteButton()]);
                         },
                         "targets": -1
-                    },
+                    }
                 ]
             };
             options.delete = function (data) {
