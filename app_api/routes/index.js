@@ -27,5 +27,10 @@ router.delete('/banners/:banner_id', ctrlBanner.bannerDeleteOne);
 
 //  category
 router.get('/categories', ctrlCate.listAllCategory);
+router.post('/category', ctrlCate.categoryCreate);
+
+
+// sub category
+router.post('/category/:cateId/subCate', ctrlCate.subCateCreate);
 
 module.exports = router;

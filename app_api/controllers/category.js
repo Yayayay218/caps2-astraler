@@ -30,3 +30,42 @@ module.exports.listAllCategory = function (req, res) {
     });
 };
 
+module.exports.subCateCreate = function (req, res) {
+
+    if (req.params.cateId) {
+        Categories
+            .findById(req.params.cateId)
+            .select('subCategories')
+            .exec(
+                function (err, category) {
+                    if (err) {
+                        sendJSONresponse(res, 400, err);
+                    } else {
+                        doAddSubCate(req, res, category);
+                    }
+                }
+            );
+    } else {
+        sendJSONresponse(res, 404, {
+            "message": "Not found, cateid required"
+        });
+    }
+
+};
+
+var doAddSubCate = function (req, res, category) {
+    if (!category)
+        sendJSONresponse(res, 404, "category not found");
+    else {
+        category.subCategories.push({
+            name: req.body.name,
+            description: req.body.description
+        });
+
+        category.save(function (err, category) {
+            if (err)
+                sendJSONresponse(res, 400, err);
+            sendJSONresponse(res, 201, category);
+        });
+    }
+};
