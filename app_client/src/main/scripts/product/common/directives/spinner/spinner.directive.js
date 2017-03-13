@@ -25,10 +25,10 @@ function spinner() {
             });
 
             $('.spinner .btn:last-of-type').on('click', function() {
-                if($('.spinner input').val() == minNumber){
+                if(element.val() == minNumber){
                     return false;
                 }else{
-                    $('.spinner input').val( parseInt($('.spinner input').val(), 10) - 1);
+                    element.val( parseInt(element.val(), 10) - 1);
                     return false;
                 }
             });

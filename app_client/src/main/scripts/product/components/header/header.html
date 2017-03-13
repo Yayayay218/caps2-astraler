@@ -70,7 +70,8 @@
                                     </button>
                                     <ul class="dropdown-menu" role="menu">
                                         <li><a href="#">Category</a></li>
-                                        <li ng-repeat="category in listAllCate.data"><a href="">{{category.name}}</a></li>
+                                        <li ng-repeat="category in listAllCate.data"><a href="">{{category.name}}</a>
+                                        </li>
                                     </ul>
                                 </div>
 
@@ -163,8 +164,8 @@
                                         <div class="login-box">
                                             <div class="">
                                                 <ul class="text-style">
-                                                    <li ><a ui-sref="my-account">My Account</a></li>
-                                                    <li class="iconMyOrder"><a href="">My Order</a> <span
+                                                    <li class="iconMyAccount"><a ui-sref="my-account">My Account</a></li>
+                                                    <li class="iconMyOrder"><a href="#">My Order</a> <span
                                                             class="badge badgeOrder">1</span></li>
                                                     <li class="iconInbox"><a href="">Inbox</a> <span
                                                             class="badge badgeInbox">1</span>
@@ -175,13 +176,12 @@
                                             <div class="divider"></div>
                                             <div class="">
                                                 <ul class="text-style">
-                                                    <li class="iconLogOut"><a ng-click="logOut()">Logout</a>
+                                                    <li class="iconLogOut"><a ng-click="logOut()" href="">Logout</a>
                                                     </li>
                                                 </ul>
                                             </div>
                                         </div>
                                     </ul>
-                                    <button ng-click="logOut()">Logout</button>
                                 </div>
                             </div>
                         </div>
